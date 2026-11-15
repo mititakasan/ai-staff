@@ -72,3 +72,5 @@
     services.insertAdjacentElement('afterend', use);
   }
 })();
+
+;document.querySelector('.difference-section')?.remove();
