@@ -74,20 +74,20 @@
         <article class="ai-plan ai-plan--trial">
           <span class="ai-plan__badge">先行導入企業限定</span>
           <h3>1か月トライアル</h3>
-          <p class="ai-plan__price">30万円</p><p class="ai-plan__tax">税別 / 1か月</p>
+          <p class="ai-plan__price">10万円</p><p class="ai-plan__tax">税別 / 1か月</p>
           <ul><li>業務ヒアリング・対象業務の選定</li><li>企業専用AI社員の初期構築</li><li>1か月の試用・改善サポート</li></ul>
           <a class="ai-plan__button ai-plan__button--primary" href="#ai-contact">先行導入について相談する</a>
         </article>
         <article class="ai-plan ai-plan--standard">
           <h3>通常導入プラン</h3>
-          <div class="ai-plan__cost"><span>初期費用</span><strong>50万円</strong><span>月額利用料</span><strong>10万円</strong></div>
+          <div class="ai-plan__cost"><span>初期費用</span><strong>要相談</strong><span>月額利用料</span><strong>10万円</strong></div>
           <p class="ai-plan__tax">いずれも税別</p>
           <ul><li>チャット・社内システム連携</li><li>業務ナレッジの継続的な更新</li><li>稼働監視・保守・業務改善</li></ul>
           <a class="ai-plan__button ai-plan__button--outline" href="#ai-contact">お問い合わせ</a>
         </article>
       </div>
-      <p class="ai-pricing__note">継続を希望される場合のみ、月額10万円の通常プランへ移行します。</p>
-      <p class="ai-pricing__fine">※専用端末代・外部API利用料・特殊なシステム連携費用は別途となる場合があります。</p>
+      <p class="ai-pricing__note">トライアルは1か月10万円（税別）です。通常プランの月額利用料は10万円（税別）、初期導入費用は要相談です。</p>
+      <p class="ai-pricing__fine">＊初期導入費用については要相談です。専用端末代・外部API利用料・特殊なシステム連携費用は別途となる場合があります。</p>
     </div>
   `; document.querySelector('footer')?.before(pricing);
 
