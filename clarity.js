@@ -73,4 +73,5 @@
   }
 })();
 
+;document.querySelector('.difference-section')?.remove();
 document.documentElement.classList.remove('is-hydrating');
