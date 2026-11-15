@@ -15,7 +15,7 @@
   const members=document.querySelector('.members');
   if(members) members.outerHTML=`<section class="business-work"><div class="business-work__inner"><p class="section-en">WORK SCENES</p><h2>部署をまたいで、<br>いつもの仕事を支える。</h2><p class="business-work__lead">会社ごとの業務に合わせ、まずは任せたい仕事から。<br>以下は対象業務の例です。</p><div class="business-work__grid"><article><span>01</span><h3>営業</h3><p>商談先の調査、企業情報の整理、提案資料の下書き。</p></article><article><span>02</span><h3>経理・総務</h3><p>領収書の整理、データの集計、書類作成の準備。</p></article><article><span>03</span><h3>会議・社内業務</h3><p>会議メモの整理、議事録の下書き、社内情報の検索。</p></article><article><span>04</span><h3>教育・研修</h3><p>研修資料のたたき台、アンケート結果の整理。</p></article></div><p class="business-work__note">※ 対応する業務・使用するツールは、導入前に確認のうえ個別にご案内します。</p></div></section>`;
   const trial=document.querySelector('.ai-plan--trial ul');if(trial)trial.innerHTML='<li>業務ヒアリング・対象業務の選定</li><li>企業専用AI社員の初期構築</li><li>業務ナレッジの登録・初期設定</li><li>1か月間の試用・改善サポート</li>';
-  const note=document.querySelector('.ai-pricing__note');if(note)note.textContent='トライアル初月は30万円（税別）。継続を希望される場合のみ、2か月目から月額10万円（税別）の通常プランへ移行します。';
-  const fine=document.querySelector('.ai-pricing__fine');if(fine)fine.textContent='※ 通常プランは初期導入費用50万円＋月額利用料金10万円（いずれも税別）。専用端末代・外部API利用料・特殊な連携費用は別途となる場合があります。';
+  const note=document.querySelector('.ai-pricing__note');if(note)note.textContent='トライアルは1か月10万円（税別）です。通常プランの月額利用料は10万円（税別）、初期導入費用は要相談です。';
+  const fine=document.querySelector('.ai-pricing__fine');if(fine)fine.textContent='＊初期導入費用については要相談です。通常プランの月額利用料は10万円（税別）です。専用端末代・外部API利用料・特殊な連携費用は別途となる場合があります。';
   document.querySelector('.partners')?.setAttribute('aria-label','AI社員の特徴');
 })();
