@@ -5,7 +5,7 @@
 
   document.title = 'AI社員 | 採用するのは、人だけじゃない。';
   const logo = document.querySelector('.gnav__logo');
-  if (logo) { logo.innerHTML = '<span class="ai-logo">AI社員</span><small>あなたの会社に、AIの仲間を。</small>'; logo.setAttribute('aria-label', 'AI社員 トップ'); }
+  if (logo) { logo.innerHTML = '<span class="ai-logo">AI社員</span><small>24時間、会社で働くAI社員。</small>'; logo.setAttribute('aria-label', 'AI社員 トップ'); }
   document.querySelectorAll('.gnav__links a').forEach((a, i) => { if (i === 3) a.remove(); });
   document.querySelectorAll('.gnav__links a').forEach((a, i) => { a.textContent = ['トップ', 'AI社員とは', 'できること', 'よくある質問'][i]; a.href = ['#top', '#about', '#services', '#faq'][i]; });
   const headerCta = document.querySelector('.gnav__cta'); if (headerCta) { headerCta.textContent = '導入相談 ↗'; headerCta.href = '#ai-contact'; }
