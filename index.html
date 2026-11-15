@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="ja">
-
+<html lang="ja" class="is-hydrating">
 <head>
+  <style>html.is-hydrating body{visibility:hidden}</style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
@@ -34,9 +34,7 @@
 
 <body id="top">
   <header class="gnav">
-    <a class="gnav__logo" href="index.html" aria-label="隣の高専生 トップ">
-      <img src="assets/lp/header-logo.png" alt="隣の高専生" width="170" height="40">
-    </a>
+    <a class="gnav__logo" href="#top" aria-label="AI社員 トップ"><span class="ai-logo">AI社員</span><small>あなたの会社に、AIの仲間を。</small></a>
     <nav class="gnav__links" id="gnav-links" aria-label="グローバルナビ">
       <a href="index.html" aria-current="page">トップ</a>
       <a href="projects.html">事例紹介</a>
@@ -57,9 +55,9 @@
         <img class="hero__bg" src="assets/lp/hero-shapes.svg" alt="" aria-hidden="true">
         <div class="hero__body">
           <h1 class="hero__title"><span><strong>事務作業</strong>を、</span><span><strong>AI社員</strong>に任せる。</span></h1>
-          <p class="hero__lead">スタートアップや地域のプロジェクトで、<br>学んだ技術を現場の課題解決に。<br>高専生と企業をつなぐ実践のプラットフォーム。</p>
-          <a class="hero__register" href="https://kosen.tonari.ac/"><span class="btn-ico" aria-hidden="true"></span>今すぐ新規登録（高専生向け）<span class="tap" aria-hidden="true"><span class="tap__ripple"></span><img class="tap__hand" src="assets/lp/tap-hand.svg" alt=""></span></a>
-          <a class="hero__business" href="company.html">法人企業様向け</a>
+          <p class="hero__lead">人手不足や事務作業の多さに悩む中小企業へ。<br>企業調査・資料作成などの仕事を、AI社員が支援します。</p>
+          <a class="hero__register" href="#ai-contact"><span class="btn-ico" aria-hidden="true"></span>導入を相談する<span class="tap" aria-hidden="true"><span class="tap__ripple"></span><img class="tap__hand" src="assets/lp/tap-hand.svg" alt=""></span></a>
+          <a class="hero__business" href="#ai-contact">サービスについて相談する</a>
         </div>
         <div class="hero__photos" aria-hidden="true">
           <img class="hero__photo--3" src="assets/lp/hero-ai.png" alt="AI社員">
@@ -317,7 +315,7 @@
   <script src="site-completion.js?v=1" defer></script>
   <script src="expansion.js?v=1" defer></script>
   <script src="user-refinements.js?v=1" defer></script>
-  <script src="clarity.js?v=1" defer></script>
+  <script src="clarity.js?v=2" defer></script>
 </body>
 
 </html>
