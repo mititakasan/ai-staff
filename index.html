@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>AI社員 | 中小企業の請求書・議事録作成を支援</title>
+  <meta name="description" content="人手不足や事務作業に悩む中小企業へ。請求書の下書き、企業調査、議事録作成をチャットから依頼できるAI社員。初期設定から運用改善まで支援します。">
+  <meta name="robots" content="noindex, nofollow">
+  
+  <link rel="icon" type="image/png" sizes="242x242" href="assets/favicon.png?v=icon-1">
+  <link rel="apple-touch-icon" sizes="242x242" href="assets/favicon.png?v=icon-1">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#213a89">
+  <meta property="og:type" content="website">
+  
+  <meta property="og:title" content="AI社員 | 会社の仕事を覚え、チームを支えるAI">
+  <meta property="og:description" content="人手不足や事務作業に悩む中小企業へ。請求書の下書き、企業調査、議事録作成をチャットから依頼できるAI社員。初期設定から運用改善まで支援します。">
+  
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="AI社員">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" as="image" href="assets/reference/kinchan.png" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;500&family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lp.css?v=lp-figma-68">
+  <script src="lp.js?v=lp-figma-68" defer></script>
+  <link rel="stylesheet" href="improvements.css?v=8">
+  <link rel="stylesheet" href="expansion.css?v=1">
+  <link rel="stylesheet" href="user-refinements.css?v=1">
+</head>
+
+<body id="top">
+  <header class="gnav">
+    <a class="gnav__logo" href="index.html" aria-label="隣の高専生 トップ">
+      <img src="assets/lp/header-logo.png" alt="隣の高専生" width="170" height="40">
+    </a>
+    <nav class="gnav__links" id="gnav-links" aria-label="グローバルナビ">
+      <a href="index.html" aria-current="page">トップ</a>
+      <a href="projects.html">事例紹介</a>
+      <a href="guide.html">参加・依頼ガイド</a>
+      <a href="faq.html">よくある質問</a>
+      <a href="about.html">会社情報</a>
+      <a class="btn-brand gnav__mobile-cta" href="company.html#inquiry">お問い合わせ ↗</a>
+    </nav>
+    <a class="btn-brand gnav__cta magnetic" href="company.html#inquiry">お問い合わせ ↗</a>
+    <button class="gnav__toggle" type="button" aria-label="メニューを開く" aria-controls="gnav-links" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="メインビジュアル">
+      <div class="hero__panel">
+        <img class="hero__bg" src="assets/lp/hero-shapes.svg" alt="" aria-hidden="true">
+        <div class="hero__body">
+          <h1 class="hero__title"><span><strong>事務作業</strong>を、</span><span><strong>AI社員</strong>に任せる。</span></h1>
+          <p class="hero__lead">スタートアップや地域のプロジェクトで、<br>学んだ技術を現場の課題解決に。<br>高専生と企業をつなぐ実践のプラットフォーム。</p>
+          <a class="hero__register" href="https://kosen.tonari.ac/"><span class="btn-ico" aria-hidden="true"></span>今すぐ新規登録（高専生向け）<span class="tap" aria-hidden="true"><span class="tap__ripple"></span><img class="tap__hand" src="assets/lp/tap-hand.svg" alt=""></span></a>
+          <a class="hero__business" href="company.html">法人企業様向け</a>
+        </div>
+        <div class="hero__photos" aria-hidden="true">
+          <img class="hero__photo--3" src="assets/lp/hero-ai.png" alt="AI社員">
+          <img class="hero__photo--1" src="assets/reference/kinchan.png" alt="AI社員きんちゃん" fetchpriority="high" decoding="async">
+          <img class="hero__photo--2" src="assets/lp/hero-device.png" alt="AI社員のデバイス">
+          <img class="hero__photo--4" src="assets/lp/hero-device.png" alt="AI社員のデバイス">
+          <img class="hero__photo--5" src="assets/lp/hero-ai.png" alt="AI社員">
+        </div>
+      </div>
+    </section>
+
+    <section class="partners" aria-label="採択・報道実績">
+      <p class="partners__label">ACCELERATORS / INTERVIEW / CONTEST</p>
+      <ul class="partners__list">
+        <li class="partners__item"><img src="assets/lp/partner-nict.png" alt="NICT 情報通信研究機構" loading="lazy"><span>採択・プログラム</span></li>
+        <li class="partners__item"><img src="assets/lp/partner-akatsuki.png" alt="AKATSUKIプロジェクト" loading="lazy"><span>採択・プログラム</span></li>
+        <li class="partners__item"><img src="assets/lp/partner-mitoyo.png" alt="三豊市" loading="lazy"><span>報道掲載</span></li>
+        <li class="partners__item"><img src="assets/lp/partner-soumu.png" alt="総務省" loading="lazy"><span>報道掲載</span></li>
+        <li class="partners__item"><img src="assets/lp/partner-shikoku.png" alt="四国新聞" loading="lazy"><span>報道掲載</span></li>
+        <li class="partners__item"><img src="assets/lp/partner-sanyo.png" alt="山陽新聞" loading="lazy"><span>報道掲載</span></li>
+      </ul>
+    </section>
+
+    <section class="problem" id="problem">
+      <div class="shapes shapes--problem" aria-hidden="true">
+        <span class="shape shape--slab p1"></span>
+        <span class="shape shape--slab p2"></span>
+        <img class="shape shape--img p3" src="assets/lp/flow-arrow.png" alt="">
+        <span class="shape shape--ring p4"></span>
+      </div>
+      <h2 class="problem__title">こんな課題ありませんか？</h2>
+      <div class="problem__grid">
+        <article class="problem__card tilt">
+          <h3>必要なエンジニアを採用するまでに時間がかかっている</h3>
+          <img src="assets/lp/problem-1.png" alt="" width="243" height="159" loading="lazy">
+          <ul>
+            <li>必要な人材を弊社がアサインします</li>
+            <li>必要な技術力を必要なタイミングで確保</li>
+            <li>適切な人材・チームを提案する</li>
+          </ul>
+        </article>
+        <article class="problem__card tilt">
+          <h3>社内DXや業務効率化が<br>後回しになっている</h3>
+          <img src="assets/lp/problem-2.png" alt="" width="243" height="159" loading="lazy">
+          <ul>
+            <li>業務上の課題を発見・整理する</li>
+            <li>企画立案から全体の進行管理まで担う</li>
+            <li>実際のシステム開発や実装を行う</li>
+          </ul>
+        </article>
+        <article class="problem__card tilt">
+          <h3>外部パートナーとの<br>進行管理に負担が<br>かかっている</h3>
+          <img src="assets/lp/problem-3.png" alt="" width="243" height="159" loading="lazy">
+          <ul>
+            <li>企業との窓口となり、品質管理を担当する</li>
+            <li>高専生とのやりとりを弊社の一本化できる</li>
+            <li>隣の高専生アプリで進捗を可視化</li>
+          </ul>
+        </article>
+      </div>
+      <img class="problem__arc" src="assets/lp/arc.svg" alt="" aria-hidden="true">
+    </section>
+
+    <section class="solution" id="about">
+      <h2 class="solution__heading">
+        <span class="solution__logo"><img src="assets/lp/tonari-3d-logo.gif" alt="隣の高専生"></span>
+        <img class="solution__suffix" src="assets/lp/solve-heading.svg" alt="が解決します！" width="573" height="99">
+      </h2>
+      <p class="solution__lead">高専生と企業をつなぎ、実践の場と新しい価値を生み出すプラットフォーム</p>
+      <div class="flow" aria-label="高専生、隣の高専生、企業の関係図">
+        <div class="flow__node"><img src="assets/lp/flow-student.png" alt="" loading="lazy"><p class="flow__name">高専生</p><p class="flow__desc">学び・開発・実績</p></div>
+        <div class="flow__arrow flow__arrow--3d" aria-label="高専生から隣の高専生へ参加・開発、隣の高専生から高専生へ案件の紹介・サポート">
+          <div class="a3d__labels"><span class="a3d__label a3d__label--fwd">参加・開発</span><span class="a3d__label a3d__label--back">案件の紹介・サポート</span></div>
+          <div class="a3d" aria-hidden="true"><div class="a3d__rot"><span class="a3d__sprite"></span></div></div>
+        </div>
+        <div class="flow__node"><img src="assets/lp/flow-infinity.png" alt="" loading="lazy"><p class="flow__name">隣の高専生</p><p class="flow__desc">マッチング・進行・支援</p></div>
+        <div class="flow__arrow flow__arrow--3d" aria-label="隣の高専生から企業へ開発・人材の提供、企業から隣の高専生へ案件の依頼・相談">
+          <div class="a3d__labels"><span class="a3d__label a3d__label--fwd">開発・人材の提供</span><span class="a3d__label a3d__label--back">案件の依頼・相談</span></div>
+          <div class="a3d" aria-hidden="true"><div class="a3d__rot"><span class="a3d__sprite"></span></div></div>
+        </div>
+        <div class="flow__node"><img src="assets/lp/flow-company.png" alt="" loading="lazy"><p class="flow__name">企業</p><p class="flow__desc">課題・案件・採用</p></div>
+      </div>
+      <div class="steps" data-steps>
+        <div class="steps__sticky">
+          <div class="steps__card">
+            <div class="steps__intro">
+              <p class="steps__eyebrow">隣の高専生に参加するメリット</p>
+              <ul class="chips">
+              <li class="chip is-active" data-step="0">
+                <button type="button" class="chip__head" data-goto="0" aria-expanded="true"><span class="chip__icon" aria-hidden="true">1</span>実践経験</button>
+                <div class="chip__body">
+                  <div class="chip__inner"><h3 class="chip__title">実際のプロジェクトで実践経験が積める</h3>
+                  <p>スタートアップや地域のプロジェクトで、実際の開発に参加できます。学んだ技術を現場の課題解決に活かし、リアルなプロジェクト経験を積めます。</p>
+                  <a class="chip__link btn-brand magnetic" href="https://kosen.tonari.ac/">プロジェクトに参加 <span aria-hidden="true">›</span></a></div>
+                </div>
+              </li>
+              <li class="chip" data-step="1">
+                <button type="button" class="chip__head" data-goto="1" aria-expanded="false"><span class="chip__icon" aria-hidden="true">2</span>報酬</button>
+                <div class="chip__body">
+                  <div class="chip__inner"><h3 class="chip__title">報酬を得ながらスキルアップできる</h3>
+                  <p>チームに加わり、実際の開発に参加。先輩メンバーがサポートするので、初心者でも安心して取り組めます。プロジェクト完了後に報酬をお支払いします。</p>
+                  <a class="chip__link btn-brand magnetic" href="guide.html">参加の流れを見る <span aria-hidden="true">›</span></a></div>
+                </div>
+              </li>
+              <li class="chip" data-step="2">
+                <button type="button" class="chip__head" data-goto="2" aria-expanded="false"><span class="chip__icon" aria-hidden="true">3</span>実績</button>
+                <div class="chip__body">
+                  <div class="chip__inner"><h3 class="chip__title">ポートフォリオやガクチカに使える実績</h3>
+                  <p>プロジェクトで取り組んだ成果物は、ポートフォリオとして活用できます。実践で得た経験や実績を、これからの挑戦につなげていきましょう。</p>
+                  <a class="chip__link btn-brand magnetic" href="https://kosen.tonari.ac/">実績をつくる <span aria-hidden="true">›</span></a></div>
+                </div>
+              </li>
+              </ul>
+            </div>
+            <div class="steps__art" aria-hidden="true">
+              <img class="art art--0" src="assets/lp/flow-student.png" alt="">
+              <img class="art art--1" src="assets/lp/flow-infinity.png" alt="">
+              <img class="art art--2" src="assets/lp/flow-company.png" alt="">
+              <img class="art art--arrow" src="assets/lp/flow-arrow.png" alt="">
+            </div>
+            <div class="steps__phone" aria-hidden="true">
+              <div class="phone"><span class="phone__btn phone__btn--a"></span><span class="phone__btn phone__btn--b"></span><span class="phone__btn phone__btn--c"></span><div class="phone__screen"><img src="assets/lp/app-screen.png" alt=""></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="bg-art" aria-hidden="true"><img class="bg-art__a" src="assets/lp/flow-arrow.png" alt=""><img class="bg-art__b" src="assets/lp/flow-company.png" alt=""></div>
+      <div class="services__inner">
+        <p class="eyebrow-en">Services</p>
+        <div class="services__heading">
+          <h2>事業内容</h2>
+          <a class="view-more" href="company.html">View More<img src="assets/lp/arrow-orange.png" alt=""></a>
+        </div>
+        <div class="services__list">
+          <a class="services__banner" href="company.html"><img class="services__banner-wide" src="assets/lp/service-banner.png" alt="隣の高専生 — 高専生による企業からの案件受託" width="1152" height="133" loading="lazy"><span class="services__banner-sp" aria-hidden="true"><img src="assets/lp/service-banner-logo.png" alt="" loading="lazy"><span>高専生による企業からの案件受託</span></span></a>
+          <a class="service-row" href="company.html#inquiry">高専生中小企業交流会</a>
+          <a class="service-row" href="company.html#inquiry">全国展開支援</a>
+          <a class="service-row" href="company.html#inquiry">高専生アイデアの事業化</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="works" id="works" aria-labelledby="works-title">
+      <div class="bg-art" aria-hidden="true"><img class="bg-art__c" src="assets/lp/flow-infinity.png" alt=""><img class="bg-art__d" src="assets/lp/flow-arrow.png" alt=""></div>
+      <div class="works__sticky">
+      <div class="works__head">
+        <p class="eyebrow-en">Project Portfolio</p>
+        <h2 id="works-title">プロジェクト実績</h2>
+      </div>
+      <div class="works__viewport">
+      <div class="works__list">
+        <a class="work-card" href="portfolio-kidssafe.html">
+          <span class="work-card__img work-card__img--kids"><img src="assets/lp/case-code4fukui.png" alt="Code for FUKUI" loading="lazy"></span>
+          <span class="work-card__tag">案件</span>
+          <h3 class="work-card__title">神山町の地域安全マップ「kidssafe」</h3>
+          <p class="work-card__desc">code for fukuiの福野泰介様から依頼を受け、<br>地域安全マップの事業検証に取り組みました。</p>
+          <span class="work-card__more">View More<img src="assets/lp/arrow-orange.png" alt="" width="30" height="11"></span>
+        </a>
+        <a class="work-card" href="portfolio-paravellum.html">
+          <span class="work-card__img work-card__img--para"><img src="assets/lp/case-paravellum.png" alt="Paravellum" loading="lazy"></span>
+          <span class="work-card__tag">案件</span>
+          <h3 class="work-card__title">AIアプリケーション開発プロジェクト</h3>
+          <p class="work-card__desc">合同会社Paravellumの開発パートナーとして、AIアプリケーション開発に参画しました。</p>
+          <span class="work-card__more">View More<img src="assets/lp/arrow-orange.png" alt="" width="30" height="11"></span>
+        </a>
+        <a class="work-card" href="portfolio-sora-no-tokei.html">
+          <span class="work-card__img work-card__img--convex"><img src="assets/lp/case-convex.png" alt="コンベックスコーポレーション" loading="lazy"></span>
+          <span class="work-card__tag">案件</span>
+          <h3 class="work-card__title">ソラのトケイ</h3>
+          <p class="work-card__desc">コンベックスコーポレーションとの研究開発として、ソラのトケイを開発しました。</p>
+          <span class="work-card__more">View More<img src="assets/lp/arrow-orange.png" alt="" width="30" height="11"></span>
+        </a>
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="members" id="members">
+      <p class="members__eyebrow">PARTICIPATING MEMBERS</p>
+      <h2 class="members__title">全国から集まる高専生メンバー</h2>
+      <div class="members__scroller" tabindex="0" aria-label="メンバー一覧（横にスクロール）">
+        <ul class="members__track">
+          <li class="member-card tilt"><span class="member-card__school">弓削商船高専</span><span class="member-card__name">奥河董馬</span></li>
+          <li class="member-card tilt"><span class="member-card__school">東京都立産業技術高専</span><span class="member-card__name">中山亮佑</span></li>
+          <li class="member-card tilt"><span class="member-card__school">釧路高専</span><span class="member-card__name">小田空音</span></li>
+          <li class="member-card tilt"><span class="member-card__school">長岡高専</span><span class="member-card__name">中野楽士</span></li>
+          <li class="member-card tilt"><span class="member-card__school">神山まるごと高専</span><span class="member-card__name">中本慧思</span></li>
+          <li class="member-card tilt"><span class="member-card__school">長岡高専</span><span class="member-card__name">眞野航輔</span></li>
+          <li class="member-card tilt"><span class="member-card__school">神山まるごと高専</span><span class="member-card__name">中本怜祐</span></li>
+          <li class="member-card tilt"><span class="member-card__school">香川高専 詫間キャンパス</span><span class="member-card__name">岡崎春一</span></li>
+          <li class="member-card tilt"><span class="member-card__school">香川高専 高松キャンパス</span><span class="member-card__name">宮武幸人</span></li>
+          <li class="member-card tilt"><span class="member-card__school">広島商船高専</span><span class="member-card__name">坂口拓海</span></li>
+          <li class="member-card tilt"><span class="member-card__school">鳥羽商船高専</span><span class="member-card__name">阪本拓海</span></li>
+          <li class="member-card tilt"><span class="member-card__school">大島商船高専</span><span class="member-card__name">縄田嵐</span></li>
+          <li class="member-card tilt"><span class="member-card__school">呉高専</span><span class="member-card__name">西岡丈</span></li>
+          <li class="member-card tilt"><span class="member-card__school">高知高専</span><span class="member-card__name">片岡勇登</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="company" id="company-info">
+      <div class="company__card">
+        <h2>会社概要</h2>
+        <dl class="company__list">
+          <div class="company__row"><dt>社名</dt><dd>株式会社Ｙｕｕｔｈ</dd></div>
+          <div class="company__row"><dt>代表取締役</dt><dd>中本怜祐</dd></div>
+          <div class="company__row"><dt>設立</dt><dd>2026年06月22日</dd></div>
+          <div class="company__row"><dt>所在地</dt><dd>徳島県名西郡神山町神領字大埜地299番1 神山まるごと高専ROOMS・Base</dd></div>
+          <div class="company__row"><dt>資本金</dt><dd>1,000,000円</dd></div>
+          <div class="company__row"><dt>連絡先</dt><dd><a href="mailto:nakamoto.ryosuke@tonari.ac">nakamoto.ryosuke@tonari.ac</a></dd></div>
+          <div class="company__row"><dt>事業内容</dt><dd>高専生と企業・地域をつなぐプラットフォームの運営、案件受託・開発支援</dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div>
+          <p class="footer__tagline">想いと技術を持つ若者が、社会で挑戦できる機会をつくる</p>
+          <img class="footer__logo" src="assets/lp/yuuth-logo.svg" alt="Yuuth" width="168" height="52">
+          <address class="footer__address">〒771-3310<br>徳島県名西郡神山町神領字大埜地299番1<br>神山まるごと高専 ROOMS・Base</address>
+        </div>
+        <nav class="footer__nav" aria-label="フッターナビゲーション">
+          <a href="index.html">トップ</a>
+          <a href="about.html">Yuuthについて</a>
+          <a href="index.html#services">事業内容</a>
+          <a href="projects.html">事例紹介</a>
+          <a href="faq.html">よくある質問</a>
+          <a href="about.html">会社案内</a>
+          <a href="company.html#inquiry">お問い合わせ</a>
+          <a href="privacy.html">プライバシーポリシー</a>
+        </nav>
+      </div>
+      <div class="footer__sns">
+        <span aria-disabled="true" title="X（準備中）">𝕏</span>
+        <span aria-disabled="true" title="note（準備中）">n</span>
+      </div>
+      <div class="footer__bottom">
+        <small>© 2026 Yuuth Inc.</small>
+        <a href="#top">Back to Top</a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="ai-content.js" defer></script>
+  <script src="improvements.js?v=2" defer></script>
+  <script src="refinement.js?v=1" defer></script>
+  <script src="polish.js?v=1" defer></script>
+  <script src="detail-fixes.js?v=1" defer></script>
+  <script src="site-completion.js?v=1" defer></script>
+  <script src="expansion.js?v=1" defer></script>
+  <script src="user-refinements.js?v=1" defer></script>
+  <script src="clarity.js?v=1" defer></script>
+</body>
+
+</html>
