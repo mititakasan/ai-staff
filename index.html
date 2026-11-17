@@ -22,11 +22,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;500&family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/lp.css?v=lp-figma-68">
-  <script src="js/lp.js?v=lp-figma-68" defer></script>
-  <link rel="stylesheet" href="css/improvements.css?v=8">
-  <link rel="stylesheet" href="css/expansion.css?v=1">
-  <link rel="stylesheet" href="css/user-refinements.css?v=1">
+  <link rel="stylesheet" href="css/lp.css?v=lp-merged-1">
+  <script src="js/lp.js?v=lp-merged-1" defer></script>
 </head>
 
 <body id="top">
@@ -34,13 +31,12 @@
     <a class="gnav__logo" href="#top" aria-label="AI社員 トップ"><span class="ai-logo">AI社員</span><small>24時間、会社で働くAI社員。</small></a>
     <nav class="gnav__links" id="gnav-links" aria-label="グローバルナビ">
       <a href="index.html" aria-current="page">トップ</a>
-      <a href="projects.html">事例紹介</a>
-      <a href="guide.html">参加・依頼ガイド</a>
-      <a href="faq.html">よくある質問</a>
-      <a href="about.html">会社情報</a>
-      <a class="btn-brand gnav__mobile-cta" href="company.html#inquiry">お問い合わせ ↗</a>
+      <a href="#works">事例紹介</a>
+      <a href="#about">参加・依頼ガイド</a>
+      <a href="#company-info">会社情報</a>
+      <a class="btn-brand gnav__mobile-cta" href="#company-info">お問い合わせ ↗</a>
     </nav>
-    <a class="btn-brand gnav__cta magnetic" href="company.html#inquiry">お問い合わせ ↗</a>
+    <a class="btn-brand gnav__cta magnetic" href="#company-info">お問い合わせ ↗</a>
     <button class="gnav__toggle" type="button" aria-label="メニューを開く" aria-controls="gnav-links" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -156,7 +152,7 @@
                 <div class="chip__body">
                   <div class="chip__inner"><h3 class="chip__title">報酬を得ながらスキルアップできる</h3>
                   <p>チームに加わり、実際の開発に参加。先輩メンバーがサポートするので、初心者でも安心して取り組めます。プロジェクト完了後に報酬をお支払いします。</p>
-                  <a class="chip__link btn-brand magnetic" href="guide.html">参加の流れを見る <span aria-hidden="true">›</span></a></div>
+                  <a class="chip__link btn-brand magnetic" href="#about">参加の流れを見る <span aria-hidden="true">›</span></a></div>
                 </div>
               </li>
               <li class="chip" data-step="2">
@@ -189,13 +185,13 @@
         <p class="eyebrow-en">Services</p>
         <div class="services__heading">
           <h2>事業内容</h2>
-          <a class="view-more" href="company.html">View More<img src="assets/lp/arrow-orange.png" alt=""></a>
+          <a class="view-more" href="#services">View More<img src="assets/lp/arrow-orange.png" alt=""></a>
         </div>
         <div class="services__list">
-          <a class="services__banner" href="company.html"><img class="services__banner-wide" src="assets/lp/service-banner.png" alt="隣の高専生 — 高専生による企業からの案件受託" width="1152" height="133" loading="lazy"><span class="services__banner-sp" aria-hidden="true"><img src="assets/lp/service-banner-logo.png" alt="" loading="lazy"><span>高専生による企業からの案件受託</span></span></a>
-          <a class="service-row" href="company.html#inquiry">高専生中小企業交流会</a>
-          <a class="service-row" href="company.html#inquiry">全国展開支援</a>
-          <a class="service-row" href="company.html#inquiry">高専生アイデアの事業化</a>
+          <a class="services__banner" href="#services"><img class="services__banner-wide" src="assets/lp/service-banner.png" alt="隣の高専生 — 高専生による企業からの案件受託" width="1152" height="133" loading="lazy"><span class="services__banner-sp" aria-hidden="true"><img src="assets/lp/service-banner-logo.png" alt="" loading="lazy"><span>高専生による企業からの案件受託</span></span></a>
+          <a class="service-row" href="#company-info">高専生中小企業交流会</a>
+          <a class="service-row" href="#company-info">全国展開支援</a>
+          <a class="service-row" href="#company-info">高専生アイデアの事業化</a>
         </div>
       </div>
     </section>
@@ -209,21 +205,21 @@
       </div>
       <div class="works__viewport">
       <div class="works__list">
-        <a class="work-card" href="portfolio-kidssafe.html">
+        <a class="work-card" href="#works">
           <span class="work-card__img work-card__img--kids"><img src="assets/lp/case-code4fukui.png" alt="Code for FUKUI" loading="lazy"></span>
           <span class="work-card__tag">案件</span>
           <h3 class="work-card__title">神山町の地域安全マップ「kidssafe」</h3>
           <p class="work-card__desc">code for fukuiの福野泰介様から依頼を受け、<br>地域安全マップの事業検証に取り組みました。</p>
           <span class="work-card__more">View More<img src="assets/lp/arrow-orange.png" alt="" width="30" height="11"></span>
         </a>
-        <a class="work-card" href="portfolio-paravellum.html">
+        <a class="work-card" href="#works">
           <span class="work-card__img work-card__img--para"><img src="assets/lp/case-paravellum.png" alt="Paravellum" loading="lazy"></span>
           <span class="work-card__tag">案件</span>
           <h3 class="work-card__title">AIアプリケーション開発プロジェクト</h3>
           <p class="work-card__desc">合同会社Paravellumの開発パートナーとして、AIアプリケーション開発に参画しました。</p>
           <span class="work-card__more">View More<img src="assets/lp/arrow-orange.png" alt="" width="30" height="11"></span>
         </a>
-        <a class="work-card" href="portfolio-sora-no-tokei.html">
+        <a class="work-card" href="#works">
           <span class="work-card__img work-card__img--convex"><img src="assets/lp/case-convex.png" alt="コンベックスコーポレーション" loading="lazy"></span>
           <span class="work-card__tag">案件</span>
           <h3 class="work-card__title">ソラのトケイ</h3>
@@ -284,13 +280,11 @@
         </div>
         <nav class="footer__nav" aria-label="フッターナビゲーション">
           <a href="index.html">トップ</a>
-          <a href="about.html">Yuuthについて</a>
+          <a href="#company-info">Yuuthについて</a>
           <a href="index.html#services">事業内容</a>
-          <a href="projects.html">事例紹介</a>
-          <a href="faq.html">よくある質問</a>
-          <a href="about.html">会社案内</a>
-          <a href="company.html#inquiry">お問い合わせ</a>
-          <a href="privacy.html">プライバシーポリシー</a>
+          <a href="#works">事例紹介</a>
+          <a href="#company-info">会社案内</a>
+          <a href="#company-info">お問い合わせ</a>
         </nav>
       </div>
       <div class="footer__sns">
@@ -304,15 +298,6 @@
     </div>
   </footer>
   
-  <script src="js/ai-content.js" defer></script>
-  <script src="js/improvements.js?v=2" defer></script>
-  <script src="js/refinement.js?v=1" defer></script>
-  <script src="js/polish.js?v=1" defer></script>
-  <script src="js/detail-fixes.js?v=1" defer></script>
-  <script src="js/site-completion.js?v=1" defer></script>
-  <script src="js/expansion.js?v=1" defer></script>
-  <script src="js/user-refinements.js?v=1" defer></script>
-  <script src="js/clarity.js?v=2" defer></script>
 </body>
 
 </html>
