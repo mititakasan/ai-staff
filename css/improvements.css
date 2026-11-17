@@ -9,7 +9,7 @@
 /* Keep the original horizontal, blue service treatment while using real text. */
 .hero{padding-top:116px}
 .gnav__logo small{letter-spacing:.04em;font-size:9px;white-space:nowrap}
-.services__banner.feature-banner{min-height:118px;display:flex;align-items:center;gap:24px;padding:24px 32px;box-sizing:border-box;background:#0b56a3 url('assets/lp/service-bg.jpg') center/cover no-repeat;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.24);box-shadow:0 12px 30px rgba(4,14,54,.2)}
+.services__banner.feature-banner{min-height:118px;display:flex;align-items:center;gap:24px;padding:24px 32px;box-sizing:border-box;background:#0b56a3 url('../assets/lp/service-bg.jpg') center/cover no-repeat;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.24);box-shadow:0 12px 30px rgba(4,14,54,.2)}
 .feature-banner__mark{flex:0 0 62px;width:62px;height:62px;display:grid;place-items:center;border-radius:50%;background:#fff;color:#205299;font:800 21px 'Inter',sans-serif;letter-spacing:-.04em}
 .feature-banner__body{display:flex;flex:1;min-width:0;align-items:baseline;gap:22px;flex-wrap:wrap}
 .feature-banner__body strong{font-size:clamp(20px,2vw,29px);line-height:1.4;letter-spacing:.03em}
